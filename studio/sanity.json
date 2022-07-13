@@ -1,7 +1,8 @@
 {
   "root": true,
   "project": {
-    "name": "bootcampblog"
+    "name": "bootcampblog",
+    "basePath": "/studio"
   },
   "api": {
     "projectId": "j5f3up1y",
@@ -15,9 +16,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
